@@ -1,10 +1,10 @@
 .timer-container {
-  width: 400px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   padding: 20px;
 
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .input-container {
@@ -14,12 +14,12 @@
 }
 
 #datetime-picker {
-  font-size: 24px;
+  font-size: 16px;
   padding: 8px;
 }
 
 .input-container button {
-  font-size: 24px;
+  font-size: 16px;
   padding: 8px 16px;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .value {
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .label {
