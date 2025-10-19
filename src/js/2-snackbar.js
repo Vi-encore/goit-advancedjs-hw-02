@@ -6,7 +6,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 function createPromise(isFulfilled = 'fulfilled', delay) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      isFulfilled != 'fulfilled' ? reject(delay) : resolve(delay);
+      isFulfilled !== 'fulfilled' ? reject(delay) : resolve(delay);
     }, delay);
   });
 }
