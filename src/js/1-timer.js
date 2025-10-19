@@ -62,7 +62,7 @@ refs.startBtn.addEventListener('click', () => {
 
     const { days, hours, minutes, seconds } = convertMs(timeDifference);
     updateTimeDisplay(days, hours, minutes, seconds);
-  }, 0);
+  }, 1000);
 });
 
 function convertMs(ms) {
